@@ -1,0 +1,10 @@
+[
+ {
+    "repository" : "GS290-dev/proprietary_vendor_gigaset",
+    "target_path": "vendor/gigaset"
+ },
+ {
+    "repository" : "proprietary_vendor_firmware",
+    "target_path": "vendor/firmware"
+ }
+]
