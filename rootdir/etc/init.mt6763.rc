@@ -37,6 +37,7 @@ on init
     write /dev/cpuctl/bg_non_interactive/cpu.rt_runtime_us 100000
 
     chmod 0666 /sys/devices/platform/charger/cmd_charge_disable
+    start adbd
 
 on late-init
     write /proc/bootprof "INIT:late-init"
